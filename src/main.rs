@@ -1,3 +1,7 @@
+use rust_tests::bodmas;
+
 fn main() {
-    println!("Hello, world!");
+    let x = bodmas::add(1, 2);
+
+    println!("Hello, world! {}", x);
 }
